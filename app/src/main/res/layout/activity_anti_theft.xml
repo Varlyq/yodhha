@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AntiTheftActivity"
+    android:background="@color/backgroundColor">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/relative">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/newanimationbg"
+            android:fitsSystemWindows="true"
+            android:id="@+id/imageview"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/imggamla"/>
+
+    </RelativeLayout>
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id = "@+id/toolbar"
+                android:layout_width = "match_parent"
+                android:layout_height = "?attr/actionBarSize"
+                app:layout_scrollFlags = "snap|enterAlways"
+                android:background="@color/backgroundColor">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Anti-Theft"
+                    android:textColor="@color/toolbartitlecolor"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/toolbartitlecolor" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/linearlayoutborder"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:elevation="40dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Active Anti-Theft"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Please always keep it enabled"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="3"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/switchbg"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+                            <com.rm.rmswitch.RMSwitch
+                                android:id="@+id/switch1"
+                                android:layout_width="40dp"
+                                android:layout_height="15dp"
+                                app:checked="true"
+                                app:enabled="true"
+                                app:forceAspectRatio="false"
+                                app:switchBkgCheckedColor="@color/purplecolor"
+                                app:switchBkgNotCheckedColor="@color/greyish"
+                                app:switchDesign="slim"
+                                app:switchToggleCheckedColor="@color/purplecolor"
+                                app:switchToggleNotCheckedColor="@color/dark_grey"
+                                android:gravity="center"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center_vertical|center_horizontal"
+                                android:layout_marginRight="5dp"
+                                />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sim Card Lock"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Please keep it enable for best result"
+                            android:id="@+id/txtSimCard"
+                            android:textColor="@color/textsecColor"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="3"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/switchbg"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"/>
+
+                            <com.rm.rmswitch.RMSwitch
+                                android:id="@+id/switch2"
+                                android:layout_width="40dp"
+                                android:layout_height="15dp"
+                                app:checked="true"
+                                app:enabled="true"
+                                app:forceAspectRatio="false"
+                                app:switchBkgCheckedColor="@color/purplecolor"
+                                app:switchBkgNotCheckedColor="@color/greyish"
+                                app:switchDesign="slim"
+                                app:switchToggleCheckedColor="@color/purplecolor"
+                                app:switchToggleNotCheckedColor="@color/white"
+                                android:gravity="center"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center_vertical|center_horizontal"
+                                android:layout_marginRight="5dp"
+                                />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Do not Touch"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Enable when you don't want someone to use your phone"
+                            android:textColor="@color/textsecColor"
+                            android:textSize="12sp"
+                            android:id="@+id/txtCharging"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="3"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/switchbg"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"/>
+
+                            <com.rm.rmswitch.RMSwitch
+                                android:id="@+id/switch3"
+                                android:layout_width="40dp"
+                                android:layout_height="15dp"
+                                app:checked="true"
+                                app:enabled="true"
+                                app:forceAspectRatio="false"
+                                app:switchBkgCheckedColor="@color/purplecolor"
+                                app:switchBkgNotCheckedColor="@color/greyish"
+                                app:switchDesign="slim"
+                                app:switchToggleCheckedColor="@color/purplecolor"
+                                app:switchToggleNotCheckedColor="@color/white"
+                                android:gravity="center"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center_vertical|center_horizontal"
+                                android:layout_marginRight="5dp"
+                                />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="USB Eject"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Enable when you don't want someone to use your phone"
+                            android:textColor="@color/textsecColor"
+                            android:textSize="12sp"
+                            android:id="@+id/txtUsbEject"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="3"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/switchbg"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp" />
+
+
+                            <com.rm.rmswitch.RMSwitch
+                                android:id="@+id/switch4"
+                                android:layout_width="40dp"
+                                android:layout_height="15dp"
+                                app:checked="true"
+                                app:enabled="true"
+                                app:forceAspectRatio="false"
+                                app:switchBkgCheckedColor="@color/purplecolor"
+                                app:switchBkgNotCheckedColor="@color/greyish"
+                                app:switchDesign="slim"
+                                app:switchToggleCheckedColor="@color/purplecolor"
+                                app:switchToggleNotCheckedColor="@color/white"
+                                android:gravity="center"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center_vertical|center_horizontal"
+                                android:layout_marginRight="5dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="USB Connect"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Enable when you don't want someone to use your phone"
+                            android:textColor="@color/textsecColor"
+                            android:textSize="12sp"
+                            android:id="@+id/txtConnect"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="3"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/switchbg"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"/>
+
+                            <com.rm.rmswitch.RMSwitch
+                                android:id="@+id/switch5"
+                                android:layout_width="40dp"
+                                android:layout_height="15dp"
+                                app:checked="true"
+                                app:enabled="true"
+                                app:forceAspectRatio="false"
+                                app:switchBkgCheckedColor="@color/purplecolor"
+                                app:switchBkgNotCheckedColor="@color/greyish"
+                                app:switchDesign="slim"
+                                app:switchToggleCheckedColor="@color/purplecolor"
+                                app:switchToggleNotCheckedColor="@color/white"
+                                android:gravity="center"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center_vertical|center_horizontal"
+                                android:layout_marginRight="5dp" />
+
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/btnLogin"
+                    android:shadowRadius="16"
+                    android:background="@drawable/btnbg"
+                    android:text="Online Purchase"
+                    android:textColor="@color/toolbartitlecolor"
+                    android:elevation="20dp"
+                    />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

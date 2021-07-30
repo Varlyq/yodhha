@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1090534718096",
+    "project_id": "antitheft-bc26f",
+    "storage_bucket": "antitheft-bc26f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090534718096:android:35fa0530516333e0527615",
+        "android_client_info": {
+          "package_name": "com.example.theftapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090534718096-mp0ba84u1l1b7u64v5719jqmpfv666nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJB_nfvyzrje8RagXWzLfVSMU8xXr8RAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090534718096-mp0ba84u1l1b7u64v5719jqmpfv666nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
