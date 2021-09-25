@@ -2,11 +2,19 @@
   <library name="Gradle: com.rm:rmswitch:1.2.2@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ca628a1278a8a3bfceec5cdd46a6fd1/jetified-rmswitch-1.2.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d7ba9a2716808a8512da5e871d8b032/jetified-rmswitch-1.2.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e5afc2792b51484b7fd69c7a9931ae0/jetified-rmswitch-1.2.2/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ca628a1278a8a3bfceec5cdd46a6fd1/jetified-rmswitch-1.2.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ca628a1278a8a3bfceec5cdd46a6fd1/jetified-rmswitch-1.2.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ca628a1278a8a3bfceec5cdd46a6fd1/jetified-rmswitch-1.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d7ba9a2716808a8512da5e871d8b032/jetified-rmswitch-1.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d7ba9a2716808a8512da5e871d8b032/jetified-rmswitch-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5d7ba9a2716808a8512da5e871d8b032/jetified-rmswitch-1.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e5afc2792b51484b7fd69c7a9931ae0/jetified-rmswitch-1.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e5afc2792b51484b7fd69c7a9931ae0/jetified-rmswitch-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e5afc2792b51484b7fd69c7a9931ae0/jetified-rmswitch-1.2.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rm/rmswitch/1.2.2/9bbee019c48d872a7df2c5f1af9e71867159a6db/rmswitch-1.2.2-javadoc.jar!/" />

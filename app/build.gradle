@@ -2,11 +2,19 @@ plugins {
     id 'com.android.application'
 }
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/Users/ashutosh/StudioProjects/untitled folder/yodhha/localData.json')
+            storePassword 'Ashutosh'
+            keyAlias 'key0'
+            keyPassword 'Ashutosh'
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.aurd.yodhha"
+        applicationId "com.aurd_more.yodhha"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
@@ -19,7 +27,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

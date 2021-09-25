@@ -61,15 +61,6 @@
             android:textColor="@color/secondaryTextColor"
             />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/verifyID"
-            android:text="aaabc"
-            android:layout_margin="10dp"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            />
 
 
         <LinearLayout
@@ -169,6 +160,7 @@
             android:background="@drawable/btnbg"
             android:text="Verify"
             android:textColor="@color/toolbartitlecolor"
+            android:gravity="center"
             />
 
 <!--        <TextView-->
