@@ -17,13 +17,12 @@
         android:id="@+id/relative">
 
         <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageview"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:src="@drawable/newanimationbg"
             android:fitsSystemWindows="true"
-            android:id="@+id/imageview"
             android:scaleType="fitXY"
-            />
+            android:src="@drawable/newanimationbg" />
 
         <ImageView
             android:layout_width="100dp"

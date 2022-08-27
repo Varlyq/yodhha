@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "1090534718096",
+    "project_id": "antitheft-bc26f",
+    "storage_bucket": "antitheft-bc26f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090534718096:android:3f622a35bee05bf7527615",
+        "android_client_info": {
+          "package_name": "com.aurd.yodhha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090534718096-0ioveirsm22ovlqbc8uorgmqh2hobkp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aurd.yodhha",
+            "certificate_hash": "3fccbf18d27d37a70611d0681818f48bab4df1c2"
+          }
+        },
+        {
+          "client_id": "1090534718096-1b2g2pp4lqb35hmhbdpijn5fecs6n77l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aurd.yodhha",
+            "certificate_hash": "6de69977575c0da5d41773134f150c8def7c3965"
+          }
+        },
+        {
+          "client_id": "1090534718096-mp0ba84u1l1b7u64v5719jqmpfv666nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJB_nfvyzrje8RagXWzLfVSMU8xXr8RAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090534718096-mp0ba84u1l1b7u64v5719jqmpfv666nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090534718096:android:b04393ea967538b7527615",
+        "android_client_info": {
+          "package_name": "com.aurd_more.yodhha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090534718096-08lmort0f2fl6jb7bqtde91e3dookhke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aurd_more.yodhha",
+            "certificate_hash": "6de69977575c0da5d41773134f150c8def7c3965"
+          }
+        },
+        {
+          "client_id": "1090534718096-1s1li67el93hotgdio8u17hv3oer7tkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aurd_more.yodhha",
+            "certificate_hash": "3fccbf18d27d37a70611d0681818f48bab4df1c2"
+          }
+        },
+        {
+          "client_id": "1090534718096-mp0ba84u1l1b7u64v5719jqmpfv666nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJB_nfvyzrje8RagXWzLfVSMU8xXr8RAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090534718096-mp0ba84u1l1b7u64v5719jqmpfv666nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
