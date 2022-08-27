@@ -1,4 +1,4 @@
-package com.aurd_more.yodhha;
+package com.more_high.yodhha;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.aurd_more.yodhha", appContext.getPackageName());
+        assertEquals("com.more_high.yodhha", appContext.getPackageName());
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.aurd_more.yodhha">
+    package="com.more_high.yodhha">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -44,16 +44,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/mainTheme">
-        <activity android:name="com.aurd_more.yodhha.NewPasswordActivity"></activity>
+        <activity android:name="com.more_high.yodhha.NewPasswordActivity"></activity>
         <activity
-            android:name="com.aurd_more.yodhha.SafetyMessage"
-            android:parentActivityName="com.aurd_more.yodhha.HumanSafety" />
+            android:name="com.more_high.yodhha.SafetyMessage"
+            android:parentActivityName="com.more_high.yodhha.HumanSafety" />
         <activity
-            android:name="com.aurd_more.yodhha.Contacts"
-            android:parentActivityName="com.aurd_more.yodhha.HumanSafety" />
-        <activity android:name="com.aurd_more.yodhha.ActivateScreen" />
-        <activity android:name="com.aurd_more.yodhha.SavedContacts" />
-        <activity android:name="com.aurd_more.yodhha.SplashScreen">
+            android:name="com.more_high.yodhha.Contacts"
+            android:parentActivityName="com.more_high.yodhha.HumanSafety" />
+        <activity android:name="com.more_high.yodhha.ActivateScreen" />
+        <activity android:name="com.more_high.yodhha.SavedContacts" />
+        <activity android:name="com.more_high.yodhha.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -61,27 +61,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.aurd_more.yodhha.Recording_List"
+            android:name="com.more_high.yodhha.Recording_List"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName="com.aurd_more.yodhha.Recording"
+            android:parentActivityName="com.more_high.yodhha.Recording"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.aurd_more.yodhha.Recording"
+            android:name="com.more_high.yodhha.Recording"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName="com.aurd_more.yodhha.HomeScreen"
+            android:parentActivityName="com.more_high.yodhha.HomeScreen"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.aurd_more.yodhha.OtpVerification"
+            android:name="com.more_high.yodhha.OtpVerification"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName="com.aurd_more.yodhha.ForgetPasswordActivity"
+            android:parentActivityName="com.more_high.yodhha.ForgetPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.aurd_more.yodhha.ForgetPasswordActivity"
+            android:name="com.more_high.yodhha.ForgetPasswordActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName="com.aurd_more.yodhha.Login"
+            android:parentActivityName="com.more_high.yodhha.Login"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.aurd_more.yodhha.LockScreen"
+            android:name="com.more_high.yodhha.LockScreen"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_lock_screen"
             android:launchMode="singleTask"
@@ -94,17 +94,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.aurd_more.yodhha.ProfilePage"
+            android:name="com.more_high.yodhha.ProfilePage"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName="com.aurd_more.yodhha.HomeScreen"
+            android:parentActivityName="com.more_high.yodhha.HomeScreen"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.aurd_more.yodhha.HumanSafety"
+            android:name="com.more_high.yodhha.HumanSafety"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName="com.aurd_more.yodhha.HomeScreen"
+            android:parentActivityName="com.more_high.yodhha.HomeScreen"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.aurd_more.yodhha.HomeScreen"
+            android:name="com.more_high.yodhha.HomeScreen"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait">
 
@@ -118,30 +118,30 @@
                app to run.
         -->
         <activity
-            android:name="com.aurd_more.yodhha.AntiTheftActivity"
+            android:name="com.more_high.yodhha.AntiTheftActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
-            android:parentActivityName="com.aurd_more.yodhha.HomeScreen" />
+            android:parentActivityName="com.more_high.yodhha.HomeScreen" />
         <activity
-            android:name="com.aurd_more.yodhha.AlertScreen"
+            android:name="com.more_high.yodhha.AlertScreen"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.aurd_more.yodhha.Register"
+            android:name="com.more_high.yodhha.Register"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:parentActivityName="com.aurd_more.yodhha.Login"
+            android:parentActivityName="com.more_high.yodhha.Login"
             android:screenOrientation="portrait"
             android:theme="@style/LoginTheme" />
         <activity
-            android:name="com.aurd_more.yodhha.Login"
+            android:name="com.more_high.yodhha.Login"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/LoginTheme" />
-        <activity android:name="com.aurd_more.yodhha.MainActivity" />
+        <activity android:name="com.more_high.yodhha.MainActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.aurd_more.yodhha.provider"
+            android:authorities="com.more_high.yodhha.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -150,7 +150,7 @@
         </provider>
 
         <receiver
-            android:name="com.aurd_more.yodhha.MyAdmin"
+            android:name="com.more_high.yodhha.MyAdmin"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <intent-filter>
                 <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
@@ -161,7 +161,7 @@
                 android:resource="@xml/policies" />
         </receiver>
         <receiver
-            android:name="com.aurd_more.yodhha.RecieveSms"
+            android:name="com.more_high.yodhha.RecieveSms"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -169,63 +169,63 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.aurd_more.yodhha.Restarter"
+            android:name="com.more_high.yodhha.Restarter"
             android:enabled="true">
             <intent-filter>
                 <action android:name="restartservice" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.aurd_more.yodhha.PowerConnectionReceiver">
+        <receiver android:name="com.more_high.yodhha.PowerConnectionReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
                 <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.aurd_more.yodhha.SimStateChangedReceiver">
+        <receiver android:name="com.more_high.yodhha.SimStateChangedReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.SIM_STATE_CHANGED" />
             </intent-filter>
         </receiver>
 
         <service
-            android:name="com.aurd_more.yodhha.backgroundContactService"
+            android:name="com.more_high.yodhha.backgroundContactService"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.MotionDetect"
+            android:name="com.more_high.yodhha.MotionDetect"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.LocatioinService"
+            android:name="com.more_high.yodhha.LocatioinService"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.BackgroundService"
+            android:name="com.more_high.yodhha.BackgroundService"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.MusicService"
+            android:name="com.more_high.yodhha.MusicService"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.CameraService"
+            android:name="com.more_high.yodhha.CameraService"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.CameraBackService"
+            android:name="com.more_high.yodhha.CameraBackService"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.CameraFrontService"
+            android:name="com.more_high.yodhha.CameraFrontService"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.RecorderService"
+            android:name="com.more_high.yodhha.RecorderService"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.AudioRecorderService"
+            android:name="com.more_high.yodhha.AudioRecorderService"
             android:enabled="true" />
         <service
-            android:name="com.aurd_more.yodhha.MyFirebaseMessagingService"
+            android:name="com.more_high.yodhha.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name="com.aurd_more.yodhha.Accessibility"
+            android:name="com.more_high.yodhha.Accessibility"
             android:enabled="true"
             android:exported="true"
             android:label="Yoddha"
