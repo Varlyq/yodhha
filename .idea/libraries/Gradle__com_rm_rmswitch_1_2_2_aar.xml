@@ -7,6 +7,7 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c3b15d8e8076b4b1372fc266a8437f2/jetified-rmswitch-1.2.2/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ccef4e4ae8a045bc4abd43850dfd64d1/jetified-rmswitch-1.2.2/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5ced3174acc4007cb26703f585f02d2/jetified-rmswitch-1.2.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67dde8732948bf22f8024cd4d75ae5f1/jetified-rmswitch-1.2.2/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ca628a1278a8a3bfceec5cdd46a6fd1/jetified-rmswitch-1.2.2/jars/classes.jar!/" />
@@ -27,6 +28,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5ced3174acc4007cb26703f585f02d2/jetified-rmswitch-1.2.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5ced3174acc4007cb26703f585f02d2/jetified-rmswitch-1.2.2/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5ced3174acc4007cb26703f585f02d2/jetified-rmswitch-1.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67dde8732948bf22f8024cd4d75ae5f1/jetified-rmswitch-1.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67dde8732948bf22f8024cd4d75ae5f1/jetified-rmswitch-1.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67dde8732948bf22f8024cd4d75ae5f1/jetified-rmswitch-1.2.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rm/rmswitch/1.2.2/9bbee019c48d872a7df2c5f1af9e71867159a6db/rmswitch-1.2.2-javadoc.jar!/" />
